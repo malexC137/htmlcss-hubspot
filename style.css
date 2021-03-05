@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 97, 97);
+    background-color: rgb(236, 250, 255);
+}
+
+button {
+    background-color: #FF7F50;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: #FF7F50;
+    border-style: none;
+    color: white;
+
+}
+
+.container {
+    width:  900px;
+    margin: auto;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.leng-selector {
+    width: 140px;
+}
+
+#lenguage {
+    padding-right: 30px;
+}
+
+.contact a {
+    padding-left: 30px;
+    border-left: solid gray;
+}
+
+.nav-top, .nav-bot {
+    width: 100%;
+}
+
+.nav-top {
+    background-color: lightgray;
+}
+
+.nav-bot {
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-top-nav > li,
+.right-top-nav > li,
+.nav-logo,
+.right-bot-nav > li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+.nav-top .container .left-top-nav {
+    float: left;
+}
+
+.nav-top .container .right-top-nav {
+    float: right;
+}
+
+.nav-logo img {
+    vertical-align: middle;
+}
+
+.right-bot-nav {
+    float: right;
+}
+
+.top-button {
+    background-color: white;
+    color: #FF7F50;
+    border-style: solid;
+    border-color: #FF7F50;
+    padding: 9px;
+    margin-right: 20px;
+}
+
+/* HEADER END
+
+MAIN TOP START */
+
+.section-top {
+    height: 550px;
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+.section-top-left {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    color: rgb(97, 97, 97);
+}
+
+.section-top-left h1 {
+    font-size: 38px;
+}
+
+.section-top-left p {
+    font-size: 12px;
+    padding: 20px 0 20px 0;
+}
+
+.section-top-left button {
+    padding: 20px;
+}
+
+.section-top-left .p-top {
+    font-size: 10px;
+}
+
+.section-top-right {
+    height: 100%;
+    /* height: 500px; */
+    background-color: #fffaf5;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(hubspot-img/jumbotron.png);
+}
+
+.banner {
+    position: absolute;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background-color: #00CED1;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(5, 5, 75);
+}
+
+/* MAIN TOP ENDS
+
+MAIN MID STARTS */
+
+.section-mid-top-top img {
+    display: inline-block;
+    width: 25%;
+    padding-top: 30px;
+}
+
+.section-mid-top-top {
+    text-align: center;
+    color: rgb(97, 97, 97); 
+}
+
+.section-mid-top-top h1 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.section-mid-top-top p {
+    font-size: 12px;
+    padding: 20px 0 20px 0;
+}
+
+.section-mid-top-bot {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    overflow: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  1px  1px 5px #dedede,
+              -1px -1px 5px #dedede,
+               1px -1px 5px #dedede,
+              -1px  1px 5px #dedede;
+}
+
+.mid-top-bot-left {
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+
+.mid-top-bot-left img {
+    display: inline-block;
+    width: 120px;
+    padding: 40px 0 20px 0;
+}
+
+.mid-top-bot-right {
+    width: 66.6%;
+    height: 300px;
+    float: left;
+    text-align: left;    
+}
+
+.mid-top-bot-right h3 {
+    padding: 40px 0 30px 0;
+}
+
+.mid-top-bot-right p {
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.mid-top-bot-right h4 {
+    width: 35%;
+    float: left;
+}
+
+.mid-top-bot-right hr {
+    width: 50%;
+    float: left;
+    margin-top: 9px;
+}
+
+.checkbox {
+    /* text-align: left; */
+    float: left;
+    width: 100%;
+}
+
+.checkbox img {
+    width: 12px;
+    padding-top: 30px;
+    display: inline-block;
+    /* padding-top: 10px; */
+}
+
+.checkbox p {
+    font-size: 12px;
+    display: inline-block; 
+    vertical-align: 2px;
+    padding: 0 20px 0 10px;
+}
+
+.mid-column {
+    display: inline-block;
+    float: left;
+    width: 33.3%;
+    height: 100px;
+    background-color: red;
+}
+
+.col-2 {
+    padding: 0 10px 0 10px;  
+} */
