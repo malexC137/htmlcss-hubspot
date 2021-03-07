@@ -383,3 +383,155 @@ MAIN MID STARTS */
     border-right: solid 1px;
 }
 
+.section-bot-bot {
+    background-color: white;
+}
+
+.row-bot-top {
+    width: 100%;
+    height: auto;
+}
+
+.box-numbers {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+
+.box-numbers h1 {
+    margin: 30px 0 30px 60px;
+}
+
+
+.box-numbers p {
+    margin: 0 0 30px 60px;
+}
+
+.box-logos {
+    width: 60%;
+    float: left;
+    margin: 30px 0px 43px 30px;
+    height: auto;
+}
+
+.box-logos img {
+    width: 20%;
+    vertical-align: middle;
+    margin: 5px 0 30px 0;
+    padding: 5px;
+}
+
+.row-bot-bot {
+    width: 100%;
+    height: auto;
+}
+
+.box-growing {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 0 0 30px 0;
+}
+
+.box-growing h2 {
+    margin: 30px 0 30px 0;
+}
+
+.box-growing button {
+    margin: 30px 0 30px 0;
+}
+
+.p-bottom {
+    font-size: 10px;
+}
+
+.box-girl {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.box-girl img {
+    width: 50%;
+    float: right;
+}
+
+footer {
+    background-color: rgb(55, 73, 89);
+}
+
+.footer-row {
+    width: 100%;
+    height: auto;
+}
+
+.footer-column {
+    width: 25%;
+    height: auto;
+    float: left;
+    color: white;
+}
+
+.footer-column h6 {
+    margin: 20px 0 20px 0;
+}
+
+.footer-column p {
+    margin: 0 0 5px 0;
+    color: lightgray;
+}
+
+.footer-column button {
+    margin: 5px 0 0 0;
+    color: rgb(55, 73, 89);
+    background-color: lightgray;
+}
+
+.social-icons {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    width: 15%;
+    height: auto;
+    float: left;
+}
+
+.fa {
+    color: lightgray;
+}
+
+.footer-leng {
+    text-align: center;
+}
+
+.footer-leng li {
+    display: inline-block;
+    color: lightgray;
+    margin: 50px 5px 20px 5px;
+}
+
+.logo-bot img {
+    width: 10%;
+    margin: 20px 0 0 0;
+}
+
+.legal-stuff {
+    width: 20%;
+    float: right;
+}
+
+.legal-stuff li {
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    color: lightgray;
+}
+
+.copyright p {
+    color: white;
+    margin-bottom: 30px;
+
+}
+
