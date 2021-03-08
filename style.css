@@ -114,12 +114,10 @@ a {
 .section-top {
     height: 550px;
     width: 100%;
-    float: left;
     position: relative;
 }
 
 .section-top-left {
-    height: 100%;
     width: 40%;
     position: absolute;
     top: 10%;
