@@ -8,7 +8,6 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(97, 97, 97);
     background-color: rgb(245, 249, 253);
-
 }
 
 p {
@@ -22,7 +21,11 @@ button {
     border-color: rgb(233, 123, 96);
     border-style: none;
     color: white;
+}
 
+select {
+    border-style: none;
+    color: rgb(97, 97, 97);
 }
 
 .container {
@@ -36,12 +39,10 @@ button {
     display: table;
 }
 
-.leng-selector {
-    width: 140px;
-}
-
-#lenguage {
-    padding-right: 30px;
+.leng-selector select {
+    background-color: rgb(245, 249, 253);
+    width: 80px;
+    margin-right: 20px;
 }
 
 .contact a {
@@ -93,25 +94,28 @@ a {
     float: right;
 }
 
-.top-button {
+.right-bot-nav li {
+    margin: 0 5px 0 5px;
+}
+
+.login-button {
     background-color: white;
     color: rgb(233, 123, 96);
     border-style: solid;
     border-color: rgb(233, 123, 96);
     padding: 9px;
-    margin-right: 20px;
+    margin: 0 20px 0 20px;
 }
 
-/* HEADER END
-
-MAIN TOP START */
+.contact, .pricing {
+    font-size: 14px;
+}
 
 .section-top {
     height: 550px;
     width: 100%;
     float: left;
     position: relative;
-
 }
 
 .section-top-left {
@@ -150,7 +154,7 @@ MAIN TOP START */
 .banner {
     position: absolute;
     bottom: 0;
-    height: 65px;
+    padding: 30px 0 30px 0;
     width: 100%;
     background-color: rgb(187, 233,228);
     border-style: solid;
@@ -158,10 +162,6 @@ MAIN TOP START */
     border-right: 0px;
     border-color: rgb(5, 5, 75);
 }
-
-/* MAIN TOP ENDS
-
-MAIN MID STARTS */
 
 .section-mid-top-top img {
     display: inline-block;
@@ -279,7 +279,6 @@ MAIN MID STARTS */
               -1px  1px 5px #dedede;
     margin-bottom: 20px;
     padding-bottom: 30px;
-    
 }
 
 .col-2 {
@@ -318,7 +317,6 @@ MAIN MID STARTS */
     padding: 0;
 }
 
-
 .column-box p {
     display: inline-block; 
     vertical-align: 3px;
@@ -329,6 +327,7 @@ MAIN MID STARTS */
     background-color: rgb(65, 169, 180);
     color: white;
     padding-top: 1px;
+    padding-bottom: 60px;
 }
 
 .section-bot-top-top {
@@ -363,10 +362,7 @@ MAIN MID STARTS */
 
 .section-bot-top-bot .box img {
     display: inline-block;
-    /* width: 40px; */
     height: 20px;
-    /* padding-bottom: 10px; */
-    /* padding: 20px 0 20px 0; */
 }
 
 .box h1 {
@@ -400,9 +396,8 @@ MAIN MID STARTS */
     margin: 30px 0 30px 60px;
 }
 
-
 .box-numbers p {
-    margin: 0 0 30px 60px;
+    margin: 0 0 10px 60px;
 }
 
 .box-logos {
@@ -530,5 +525,4 @@ footer {
 .copyright p {
     color: white;
     margin-bottom: 30px;
-
 }
