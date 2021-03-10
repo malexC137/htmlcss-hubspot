@@ -39,7 +39,7 @@ select {
     display: table;
 }
 
-.leng-selector select {
+.leng-selector {
     background-color: rgb(245, 249, 253);
     width: 80px;
     margin-right: 20px;
@@ -98,6 +98,13 @@ a {
     margin: 0 5px 0 5px;
 }
 
+
+.angle-entity {
+    transform: rotate(90deg);
+    position: absolute;
+    font-size: 20px;
+}
+
 .login-button {
     background-color: white;
     color: rgb(233, 126, 98);
@@ -107,7 +114,7 @@ a {
     margin: 0 20px 0 20px;
 }
 
-.contact, .pricing {
+.contact, .select {
     font-size: 14px;
 }
 
@@ -265,7 +272,7 @@ a {
 
 .mid-column {
     float: left;
-    width: 280px;
+    width: 30%;
     height: auto;
     background-color: white;
     text-align: center;
@@ -280,7 +287,7 @@ a {
 }
 
 .col-2 {
-    margin: 0 30px 0 30px;
+    margin: 0 5% 0 5%;
 } 
 
 .mid-column img {
@@ -379,6 +386,12 @@ a {
     background-color: white;
 }
 
+.row-bot-top::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .row-bot-top {
     width: 100%;
     height: auto;
@@ -411,6 +424,12 @@ a {
     vertical-align: middle;
     margin: 5px 0 10px 0;
     padding: 5px;
+}
+
+.row-bot-bot::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .row-bot-bot {
@@ -450,6 +469,11 @@ a {
 
 footer {
     background-color: rgb(55, 73, 89);
+}
+.footer-row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .footer-row {
